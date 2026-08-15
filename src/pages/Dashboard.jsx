@@ -55,7 +55,7 @@ const isConnected = true;
   }
 
   if (error) {
-    return <h1 className="text-red-500">API Error</h1>;
+    return <h1 className="text-black-500 text-allign-center">API Error</h1>;
   }
 
  return (
