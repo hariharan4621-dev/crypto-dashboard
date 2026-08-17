@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import { useGetCoinsQuery } from "../services/cryptoApi";
 import WatchlistStats from "../components/WatchlistStats";
-import CryptoTable from "../components/CryptoTable";
+import CryptoTable from "../components/Cryptotable";
 import SearchBar from "../components/SearchBar";
 import { useDispatch } from "react-redux";
 import { clearWatchlist } from "../features/watchlistSlice";
