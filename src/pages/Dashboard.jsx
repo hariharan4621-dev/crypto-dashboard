@@ -7,7 +7,7 @@ import {
   disconnectWebSocket,
 } from "../services/websocket";
 
-import CryptoTable from "../components/CryptoTable"; 
+import CryptoTable from "../components/Cryptotable"; 
 import SearchBar from "../components/SearchBar";
 
 export default function Dashboard() {
